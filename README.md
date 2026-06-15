@@ -10,7 +10,8 @@ A clean, minimal, native Windows video player built on top of the most powerful 
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 ---
-
+![Iris MPV Screenshot](screenshot.png)
+---
 ## ✨ Why Iris?
 
 mpv is the best video player engine in existence. Hardware decoding, HDR tone mapping, high quality scaling, Lua scripting — it powers IINA on macOS, Celluloid on Linux, and even some professional studio pipelines. But on Windows? Every frontend looks abandoned.
