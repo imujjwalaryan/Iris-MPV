@@ -2,7 +2,7 @@
 
 > I couldn't find a single modern-looking mpv frontend for Windows. Every existing one looks like it was designed in 2009. So I built one.
 
-A clean, minimal, native Windows video player built on top of the most powerful playback engine on the planet — **libmpv**.
+A clean, minimal, native Windows video player built on top of the most powerful playback engine on the planet **libmpv**.
 
 ![Platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square)
 ![Framework](https://img.shields.io/badge/framework-.NET%2010-purple?style=flat-square)
@@ -22,16 +22,16 @@ Iris is built from scratch as a proper native Windows application — no Electro
 
 ## 🚀 Features
 
-- 🎥 **Real mpv playback** — libmpv embedded directly via Win32 HwndHost
-- ⚡ **Hardware decoding** — NVDEC, DXVA2, D3D11VA auto-selected for your GPU
-- 🖥️ **Native Windows app** — built with WPF on .NET 10, no web wrappers
-- 🎨 **Custom chromeless UI** — no ugly OS titlebar, fully custom dark theme
-- 📂 **Drag & drop** — drop any video file to play instantly
-- ▶️ **Playback controls** — play, pause, seek forward/backward
-- 🔊 **Volume control** — mute/unmute with icon feedback
-- ⏱️ **Seek bar** — click or drag to seek with live timestamps
-- 🏷️ **Filename in titlebar** — always know what's playing
-- 🔁 **Replay on end** — video restarts cleanly when finished
+- 🎥 **Real mpv playback** libmpv embedded directly via Win32 HwndHost
+- ⚡ **Hardware decoding** NVDEC, DXVA2, D3D11VA auto-selected for your GPU
+- 🖥️ **Native Windows app** built with WPF on .NET 10, no web wrappers
+- 🎨 **Custom chromeless UI** no ugly OS titlebar, fully custom dark theme
+- 📂 **Drag & drop** drop any video file to play instantly
+- ▶️ **Playback controls** play, pause, seek forward/backward
+- 🔊 **Volume control** mute/unmute with icon feedback
+- ⏱️ **Seek bar** click or drag to seek with live timestamps
+- 🏷️ **Filename in titlebar** always know what's playing
+- 🔁 **Replay on end** video restarts cleanly when finished
 
 ---
 
@@ -54,7 +54,7 @@ Iris is built from scratch as a proper native Windows application — no Electro
 ### Prerequisites
 
 - [.NET 10 SDK](https://dotnet.microsoft.com/download)
-- [libmpv-2.dll](https://sourceforge.net/projects/mpv-player-windows/files/libmpv/) — download `mpv-dev-x86_64-v3-*`, extract and place `libmpv-2.dll` in `Iris/lib/`
+- [libmpv-2.dll](https://sourceforge.net/projects/mpv-player-windows/files/libmpv/)  download `mpv-dev-x86_64-v3-*`, extract and place `libmpv-2.dll` in `Iris/lib/`
 
 ### Steps
 
@@ -99,7 +99,7 @@ Or open the solution in **JetBrains Rider** or **Visual Studio 2022+** and hit R
 
 ## 📄 License
 
-MIT — do whatever you want, just keep the copyright notice.
+MIT do whatever you want, just keep the copyright notice.
 
 ---
 
